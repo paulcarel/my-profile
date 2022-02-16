@@ -1,0 +1,56 @@
+body{
+  text-align: center;
+  font-family: Helvetica;
+  justify-content: flex-start;
+  background-color: #000000e0;
+}
+h3{ /* avoir une police spéciale à l'intérieur du div.*/
+  font-size: 20;
+}
+p{ /* Paragraphes*/
+  color: white;
+  font-size: 19;
+  font-family: 'Akaya Telivigala', cursive;
+}
+a{
+  color: whitesmoke;
+}
+a:hover{
+  color: black;
+}
+.container{
+  width: 700px;
+  margin: 40px auto;
+}
+.card-white{
+  background-color: #3c3c3c;
+  padding: 40px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  margin: 20px 0px;
+  text-align: center;
+}
+.img-circle{
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+}
+.list-inline{
+  text-align: center;
+}
+.sautdeligne{
+  margin:10px;
+}
+.list-inline {
+  list-style: none; /* kill the bullet points */
+  padding-left: 0px; /* kill remaining padding left */
+}
+.list-inline > li {
+  display: inline; /* change list item behavior to inline */
+  padding: 0px 35px; /* add som left/right padding between list items */
+  font-size: 45px;
+}
+@media (max-width : 760px) {
+  .container{
+    width: 600px;
+  }
+}
